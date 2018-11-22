@@ -1,6 +1,7 @@
 package aldwin.tablante.com.appblock.Commands
 
 import aldwin.tablante.com.appblock.Activity.RequestCamera
+import aldwin.tablante.com.appblock.ScreenshotActivity
 import android.content.Context
 import android.content.Intent
 import android.graphics.drawable.GradientDrawable
@@ -26,7 +27,7 @@ class ScreenShot {
 
     fun doshot(serial: String, context: Context) {
 
-        var intent = Intent(context.applicationContext, RequestCamera::class.java)
+        var intent = Intent(context.applicationContext, ScreenshotActivity::class.java)
         intent.putExtra("serial", serial)
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
         context.applicationContext.startActivity(intent)

@@ -37,7 +37,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-firestore:11.6.0'
     implementation 'com.google.firebase:firebase-storage:11.6.0'
     testImplementation 'junit:junit:4.12'
-
+    implementation 'com.github.nisrulz:screenshott:2.0.0'
+    implementation 'com.github.tarek360:instacapture:2.0.1'
     implementation 'com.wonderkiln:camerakit:0.13.1'
     implementation 'com.squareup.picasso:picasso:2.5.2'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
