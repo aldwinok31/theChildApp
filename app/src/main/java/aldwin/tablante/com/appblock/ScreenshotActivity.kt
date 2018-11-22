@@ -22,7 +22,6 @@ class ScreenshotActivity : AppCompatActivity (){
 
            instacap()   // INSTACAPTURE 2.0.0
 
-
     }
 
 
